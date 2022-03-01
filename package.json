@@ -1,0 +1,22 @@
+{
+  "name": "smackend",
+  "version": "1.0.0",
+  "description": "(Almost) instantly create a mock Express backend",
+  "main": "index.js",
+  "scripts": {
+    "smackend": "node -e \"require('./index.js').runSmackend()\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hetyey-b/smackend.git"
+  },
+  "author": "Botond Hetyey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hetyey-b/smackend/issues"
+  },
+  "homepage": "https://github.com/hetyey-b/smackend#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
